@@ -1,0 +1,48 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box; 
+}
+
+
+section {
+   justify-content:center;
+   display:flex;
+   width:100%;
+}
+.card {
+   width: 500px;
+   height: 800px;
+   background-color:burlywood;
+   border-radius: 20px;
+   /* para que todo lo que se salga esté adapte la forma de su contenedor */
+   overflow: hidden;
+   position:absolute;
+   z-index: 0;
+   
+}
+.card img{
+   width:100%;
+   position: absolute;
+   z-index: -1;
+}
+.circle {
+   width: 200px;
+   height: 200px;
+   background-color: rgb(84, 100, 100);
+   border-radius: 100px;
+   margin-top: 19rem;
+   margin-left:10rem;
+   position:absolute;
+   z-index:1;
+
+}
+p{
+   margin-left:11rem;
+   margin-top: 33rem;
+
+   text-align:center;
+   font-size : 1.6rem;
+   position:absolute;
+   z-index:2;
+}
